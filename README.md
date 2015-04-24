@@ -7,7 +7,7 @@ Spock is a testing framework that comes bundled with support for all the standar
 * Assertions
 * BDD
 
-on top of that Spock also makes your verbose and boilerplate heavy tests elegant and simple through the power of [Groovy](http://www.groovy-lang.org/) like this
+on top of that Spock also makes your verbose and boilerplate heavy tests elegant and simple through the power of [Groovy](http://www.groovy-lang.org/). Check this out:
 ```Groovy
    def "Should create bank account successfully"() {
         when:
