@@ -7,8 +7,7 @@ Spock is a testing framework that comes bundled with support for all the standar
 * Assertions
 * BDD
 
-on top of that Spock also
-* makes your verbose and boilerplate heavy tests elegant and simple through the power of [Groovy](http://www.groovy-lang.org/)
+on top of that Spock also makes your verbose and boilerplate heavy tests elegant and simple through the power of [Groovy](http://www.groovy-lang.org/) like this
 ```Groovy
    def "Should create bank account successfully"() {
         when:
@@ -18,8 +17,7 @@ on top of that Spock also
         notThrown(IllegalArgumentException)
     }
 ```
-
-* provides awesome feedback on test failures
+It also provides awesome feedback on test failures like this
 ```
 account.uuid == "444b378f-bf1c-0031-86e7-ca27c77a7414"
 |       |    |
