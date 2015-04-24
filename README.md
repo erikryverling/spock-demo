@@ -17,7 +17,7 @@ on top of that Spock also makes your verbose and boilerplate heavy tests elegant
         notThrown(IllegalArgumentException)
     }
 ```
-It also provides awesome feedback on test failures like this
+It also provides awesome feedback on test failures like this:
 ```
 account.uuid == "444b378f-bf1c-0031-86e7-ca27c77a7414"
 |       |    |
