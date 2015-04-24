@@ -108,11 +108,11 @@ Mocking in Spock is nearly as simple. Start by initializing your mock class
  ```Groovy
  2 * generatorMock.generate()
  ```
- You are also able to create argument constrains (matchers) for the mocks. Let's say that for all values that's a `Type` you want to return the contant `ID` you want write this as
+ You are also able to create argument constrains (matchers) for the mocks. Let's say that for all values that's a `Type` you want to return the constant `ID`, you can express this as:
  ```Groovy
  generatorMock.generate(_ as Type) >> ID
  ```
- or if you just want it to be a non null value you want write it as
+ or if you just want it to be a non null value you can express it as:
  ```Groovy
  generatorMock.generate(!null) >> ID
  ```
@@ -125,7 +125,7 @@ Mocking in Spock is nearly as simple. Start by initializing your mock class
  ```Groovy
  2 * generatorMock.generate(_ as Type) >> [ID1, ID2]
  ```
- means _verify that the `generate()` method is called with an argument that is a `Type` two times and for the first time return `ID1` and for the second time return `ID2`.
+ means _verify that the `generate()` method is called with an argument that is a `Type` two times and for the first time return `ID1` and for the second time return `ID2`_.
 
 ### ...and much more
 This was just a glimpse of what's possible with Spock. Please go to the official [Spock doc](https://code.google.com/p/spock) to read more and try out the [sample app](https://github.com/erikryverling/spock-demo/tree/master/src) contained in this repo.
