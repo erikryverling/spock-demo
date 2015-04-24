@@ -34,7 +34,7 @@ account.uuid == "444b378f-bf1c-0031-86e7-ca27c77a7414"
 
 ### Prerequsite
 * Install [Git](http://git-scm.com/), [JDK](http://www.oracle.com/technetwork/java/javase/downloads/index.html), [Gradle](http://www.gradle.org/), clone the repo and then run `gradle test`
-
+* Add the Spock dependencies to your dependency manager (see the [example Gradle file](https://github.com/erikryverling/spock-demo/blob/master/build.gradle))
 
 ### Method naming
 One of the first thing that you might notice is that methods names can be strings. `ThatMeansTheEndOfLongCamelCaseMethodNames`. To create a test for creating a bank account sucessfully, just define a method as
