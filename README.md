@@ -1,5 +1,3 @@
-![Spock](http://www.startrek.com/legacy_media/images/200307/spock01/320x240.jpg)
-
 # Spock
 Spock is a testing framework that comes bundled with support for all the standard stuff you're used to:
 * JUnit support
